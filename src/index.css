@@ -84,10 +84,6 @@ header {
     text-shadow: 0 0 1rem #f4be2c;
   }
 }
-/* 
-header h1 {
-  margin: 1rem 0 1rem 4rem;
-} */
 
 .main-container {
   display: flex;
@@ -100,7 +96,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background: #f7f7f9;
+  background: var(--light-background-color);
   padding: 0 24px;
   margin-top: 1rem;
   border: 1px solid var(--clr-black);
