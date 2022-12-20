@@ -5,7 +5,6 @@ const getData = async () => {
     method: 'GET',
   });
   const data = response.json();
-  console.log(data);
   data.then((object) => renderScore(object.result));
 };
 

@@ -6,9 +6,9 @@ import { close } from './modules/isErrorIsSuccess.js';
 addScore();
 close();
 document.querySelector('.btn-refresh').addEventListener('click', () => {
-    getData();
+  getData();
 });
 
 window.addEventListener('load', () => {
-    getData();
+  getData();
 });
