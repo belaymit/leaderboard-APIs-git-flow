@@ -149,6 +149,13 @@ header h1 {
   border-radius: 3px;
 }
 
+.player-name {
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: var(--ff-primary);
+  margin-right: 2rem;
+}
+
 .add-score {
   display: flex;
   flex-direction: column;
