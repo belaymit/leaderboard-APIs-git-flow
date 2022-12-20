@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/1bc3a7e061.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="index.js"></script>
+    <title>Leaderboard: APIs and Git-flows</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/trophy/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/trophy/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/trophy/favicon-16x16.png">
+    <link rel="manifest" href="assets/trophy/site.webmanifest">
+  </head>
+  <body>
+    <header class="header-container">
+      <h1 class="header">Leaderboard</h1>
+      <img class="logo" src="./assets/trophy/android-chrome-192x192.png" alt="logo">
+    </header>
+    <main class="main-container">
+      <section class="recent-score">
+        <div>
+          <h2>Recent Scores</h2>
+          <button type="submit" class="btn-refresh">Refresh</button>
+        </div>
+        <ul class="score-list">
+        </ul>
+      </section>
+      <section class="add-score">
+        <h2>Add your score</h2>
+        <form class="score-form" id="submit-score">
+          <input
+            type="text"
+            class="input"
+            name="name"
+            id="name"
+            placeholder="Your name"
+            required
+          />
+          <input
+            type="number"
+            class="input"
+            name="score"
+            id="score"
+            placeholder="Your score"
+            required
+          />
+          <button class="add-score-btn" type="submit">Submit</button>
+        </form>
+        <div class="alert">
+          <strong class="msg"></strong>
+          <span class="close-btn">&times;</span>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="./assets/logo/murple_logo.png" alt="Microverse-logo" />
+        </div>
+        <div class="footer-content">
+          <p>Copyright &copy;<span class="year"></span> Belay Birhanu G.</p>
+          <p>This website is done under the guidance of Microverse coding School.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="/src/assets/logo/mock.png" alt="logo" width="340"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -57,22 +57,23 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Leaderboard-APIs-git-flow <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**leaderboard-APIs-git-flow** is an education project from which I have learned a lot about:
+> webpack
+> APIs, and
+> more about ES6
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">JavaScript</a></li>
   </ul>
 </details>
 
@@ -94,11 +95,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Home Page**
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +115,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -124,51 +122,50 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
+> install Node.js
+> install VsCode or any of your favored code editor
+#### You have to have a knowledge of:
+> HTML/CSS/JavaScript
+> ES6
+> linters
+> webpack, and
+> git flow and GitHub flow
+
+
 
 ### Setup
 
-Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git git@github.com:belaymit/leaderboard-APIs-git-flow.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd leaderboard-APIs-git-flow
+  npm install
+  npm audit fix --force => (optional) to resolve node version conflict
 ```
---->
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+
 
 ```sh
-  rails server
+  npm run build
+  npm start
 ```
---->
+
 
 ### Run tests
 
@@ -186,13 +183,13 @@ Example command:
 
 You can deploy this project using:
 
-<!--
-Example:
+
+
 
 ```sh
-
+    You can deploy this project using GitHub pages 
 ```
- -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,17 +199,13 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Belay Birhanu G.**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/belaymit?tab=repositories)
+- Twitter: [@twitterhandle](https://twitter.com/2belamit)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/belay-birhanu-144ba714b/)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,9 +215,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add Score**
+- [ ] **Fetch Score**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -234,7 +226,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](.https://github.com/belaymit/leaderboard-APIs-git-flow/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -242,9 +234,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please git it star. Thanks in advance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,9 +243,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Microverse Community and my morning sessions and my coding partners
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -262,7 +251,6 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 
